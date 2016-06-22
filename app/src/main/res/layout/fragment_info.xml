@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ru.badboy.infometer.InfoActivity">
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Switch
+            android:id="@+id/mode_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/toggle_button"
+            android:textSize="16sp"
+            android:textOn="@string/toggle_mode_percent"
+            android:textOff="@string/toggle_mode_yes_no" />
+
+        <EditText
+            android:id="@+id/info_question_editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/info_hint"
+            android:inputType="textCapSentences|textMultiLine"
+            android:padding="15dp"
+            android:layout_marginTop="60dp"
+            android:selectAllOnFocus="true"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/check_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:enabled="false"
+            android:text="@string/check_button_text"
+            android:textColor="@drawable/check_button_color"
+            android:background="@drawable/check_button_shape_selector"/>
+
+        <TextView
+            android:id="@+id/last_question_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:freezesText="true"
+            android:gravity="center"
+            android:padding="18dp"
+            android:text="@string/info_text"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/result_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            android:padding="15dp"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>

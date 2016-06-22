@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Infometer</string>
+    <string name="info_hint">Type the info you want to check here</string>
+    <string name="check_button_text">Check</string>
+    <string name="info_text">100% correct answer!</string>
+    <string name="percent_mode">Percent mode</string>
+    <string name="yesno_mode">Yes/No mode</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="no_info">Sorry, it\'s very difficult</string>
+    <string name="info">INFO</string>
+    <string name="history">HISTORY</string>
+    <string name="remove_history_item">Remove</string>
+    <string name="clear_history">Clear history</string>
+    <string name="dialog_clear_history">Are you sure you want to clear ALL the History?</string>
+    <string name="no_info_for_history">Don\'t know</string>
+    <string name="toggle_button">Mode</string>
+    <string name="toggle_mode_percent">%</string>
+    <string name="toggle_mode_yes_no">+/-</string>
+</resources>

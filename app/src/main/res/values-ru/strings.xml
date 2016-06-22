@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Инфометр</string>
+    <string name="info_hint">Введите то, что надо проверить</string>
+    <string name="check_button_text">Узнать</string>
+    <string name="info_text">100% результат!</string>
+    <string name="percent_mode">В процентах</string>
+    <string name="yesno_mode">Да/Нет</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="no_info">Простите, ничем не могу помочь</string>
+    <string name="info">ИНФО</string>
+    <string name="history">ИСТОРИЯ</string>
+    <string name="remove_history_item">Удалить</string>
+    <string name="clear_history">Очистить историю</string>
+    <string name="dialog_clear_history">Вы уверены, что хотите очистить историю?</string>
+    <string name="no_info_for_history">Не ясно</string>
+    <string name="toggle_button">Режим</string>
+</resources>
